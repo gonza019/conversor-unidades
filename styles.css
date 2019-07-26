@@ -1,0 +1,19 @@
+.titulo
+{
+  text-align: left;
+  margin-top: 4%;
+  font-family: 'Jacques Francois Shadow', cursive;
+}
+body
+{
+  background-color: #b3ffd9;
+}
+#res
+{
+  font-family: 'Fredericka the Great', cursive;
+}
+.piedepagina
+{
+  text-align: center;
+  margin-top: 20%;
+}

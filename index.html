@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Conversor de unidades</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Jacques+Francois+Shadow&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1 class="titulo"><b>Conversor de sistemas de numeración</b></h1>
+    <form>
+
+    <input id="input" type="text" name="valor" value="">
+    <label class="tipo" for="from">Desde:</label>
+    <select id="from" name="Primera Base">
+    <option value="10">Decimal</option>
+    <option value="2">Binario</option>
+    <option value="8">Octal</option>
+    <option value="16">Hexadecimal</option>
+    </select>
+
+    <label class="tipo" for="to">Hacia:</label>
+    <select id="to" name="Segunda Base">
+    <option value="16">Hexadecimal</option>
+    <option value="8">Octal</option>
+    <option value="2" selected>Binario</option>
+    <option value="10">Decimal</option>
+    </select> <br> <br>
+
+    <button type="button" onclick="convertidor()">Convertir</button>   <br>
+
+    </form>
+
+        <h2 id="res">Resultado:</h2>
+        <p id="resultado"></p>
+
+
+        <footer class="piedepagina">
+        <p>Gonzalo Alarcón,"4"2º</p> <br>
+        <a href="https://github.com/gonza019/conversor-unidades">Repositorio</a>
+        </footer>
+
+        <script src="convertidor.js"></script>
+
+        </body>
+        </html>
